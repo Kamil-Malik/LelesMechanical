@@ -1,0 +1,106 @@
+/* Navbar Brand */
+.navbar-brand {
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 1 px 1px black;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+/* Navbar Brand */
+
+/* Nav Link */
+.navbar .nav-link {
+    font-size: 17px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600 !important;
+    letter-spacing: 1.2px;
+    color: white;
+}
+.aktif {
+    color: rgb(173, 173, 173) !important;
+}
+.nav-link:hover {
+    color: #e17055;
+    animation: none;
+}
+/* Nav link */
+
+/* Toggler */
+.navbar-toggler {
+    background: #ff7675;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #ffff;
+}
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+/* Toggler */
+
+/* Utilities */
+.navbar-brand, .nav-link{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+@media (min-width: 375px) {
+    .navbar-brand {
+      padding-top: 10px;
+      font-size: 20px;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+    .navbar .nav-link {
+      padding-top: 5px;
+      text-align: center;
+    }
+}
+@media(min-width:425px){
+    .navbar-toggler{
+        margin-right: 1rem;
+    }
+}
+@media (min-width: 720px) {
+    .navbar .navbar-brand {
+      margin-left: 0;
+    }
+    .navbar-toggler{
+        margin-right: 0rem;
+    }
+}
+@media (min-width: 1024px) {
+    .navbar-brand {
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .navbar .nav-link {
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      letter-spacing: 1.2px;
+      font-size: 17px;
+    }
+    .nav-link:hover::after {
+      content: "";
+      display: block;
+      border-bottom: 3px solid #1e90ff;
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+    }
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background:#2f3640;
+}
+body{
+    background-color: white;
+}
+body h1, h4, h5{
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+}
+body p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+/* Slider */
+.card{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  border: 1px solid black;
+}
+
+/* Slider */
+
+/* Footer */
+.footer {
+    background-color: #2f3640;
+    margin-top: 80px;
+}
+.footer h3 {
+    padding-top: 40px;
+    font-family: "Vollkorn", serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.footer p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    word-spacing: 1px;
+    color: white;
+}
+.footer h4 {
+    padding-left: 32px;
+    font-family: "Vollkorn", serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+}
+.footer li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    list-style: none;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover {
+    color: orange;
+}
+/* Footer */
+
+/* Utilities */
+nav.scroll {
+    background: #2d3436;
+    position: fixed;
+}
+.row {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}

@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 217, 211);
+}
+body h1, h4{
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+}
+body p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+/* Jumbotron */
+.jumbotron{
+    background: url(../Gambar/Banner-Jumbotron.png);
+    height: 100vh;
+}
+.headerjumbotron{
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+.sosmed{
+    margin-top: 4rem;
+}
+.jumbotron li {
+    display: inline;
+    padding: 6px;
+    margin: auto;
+}
+/* Jumbotron */
+
+/* Section 2 */
+.kotak{
+    background-color: white;
+}
+.tombol2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Section 2 */
+
+/* Mengapa Kami */
+.judul3 {
+    height: 80px;
+    text-align: center;
+}
+.mengapa_Kami {
+    background-color: white;
+    text-align: center;
+}
+.mengapa_Kami h1 {
+    font-family: "Vollkorn", serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+.kotakalasan {
+    border: 3px solid #2d3436;
+    margin-top: -100px;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.jarak,
+.ke3 h1,
+.kotak7 {
+    background-color: white;
+}
+.ke3 h1 {
+    font-size: 35px;
+    text-align: center;
+}
+.kotak7 {
+    margin-top: -10px;
+    height: 150px;
+    border-bottom: 2px solid #2d3436;
+}
+.kotakalasan img {
+    width: 40px;
+}
+.kotak03 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.kotak03 h2 {
+    font-family: "Vollkorn", serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.kotak03 p {
+    text-align: center;
+    font-size: 16px;
+    word-spacing: 1px;
+}
+/* Mengapa Kami */
+
+/* Footer */
+.footer {
+    background-color: #2f3640;
+    margin-top: 80px;
+}
+.footer h3 {
+    padding-top: 40px;
+    font-family: "Vollkorn", serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.footer p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    word-spacing: 1px;
+    color: white;
+}
+.footer h4 {
+    padding-left: 32px;
+    font-family: "Vollkorn", serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+}
+.footer li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    list-style: none;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover {
+    color: orange;
+}
+/* Footer */
+
+/* Utilities */
+nav.scroll {
+    background: #2d3436;
+    position: fixed;
+}
+.row {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.navbar{
+    background: url(../Gambar/Banner-Jumbotron.png);
+}
+
+@media(min-width:325px){
+    .headerjumbotron{
+        text-align: center;
+        padding-top: 11rem;
+    }
+    .headerjumbotron h1{
+        size: 40px;
+    }
+    .jumbotron h4{
+        text-align: left;
+        margin-top: 11rem;
+        margin-left: 2.5rem;
+    }
+    .jumbotron ul{
+        margin-top: 1rem;
+        text-align: left;
+    }
+    .kotak1 h1{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .kotak1 p{
+        text-align: justify;
+    }
+    .tombol2{
+        padding-top: 2rem;
+    }
+    .kotak1 img{
+        max-height: 30vh;
+        max-width: 70vh;
+    }
+    .kotak img{
+        width: 80%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .kotak p{
+        text-align: justify;
+    }
+    .row .tombol2{
+        padding-top: 2rem;
+    }
+    .kotak1{
+        background-color: white;
+        height: 5rem;
+    }
+    .bantuan1{
+        background-color: white;
+        height: 4rem;
+    }
+}
+@media(min-width:375px){
+}
+
+@media(min-width:720px){
+    .headerjumbotron{
+        text-align: left;
+        padding-top: 11rem;
+        margin-left: 4rem;
+    }
+    .headerjumbotron h1{
+        size: 40px;
+    }
+    .jumbotron h4{
+        margin-left: 0;
+        margin-top: 6rem;
+    }
+    .jumbotron ul{
+        margin-left: -2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+@media(min-width:760px){
+    .paragraf{
+        width: 25rem;
+    }
+    .kotak h1{
+        margin-top: 1rem;
+    }
+    .kotak0{
+        height: 2rem;
+    }
+}
+@media(min-width:768px){
+    .kotak img{
+        margin-top: 1.5rem;
+        width: 60%;
+    }
+    .kotak p{
+        width: 20rem;
+    }
+    .kotak2{
+        background-color: white;
+        height: 2rem;
+    }
+    .bantuan1{
+        height: 8rem;
+    }
+    .ini-slider,
+  .carousel-item {
+    height: 430px;
+  }
+  .kotakalasan img{
+    padding-top: 2rem;
+  }
+}
+@media(min-width:1024px){
+    .container-carousel{
+        width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
